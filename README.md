@@ -7,7 +7,7 @@
 * It is a good idea to go in order, because many steps require variables defined above them. If you want to skip and come back to one later, do not do any that rely on that one either; any test will fail unless all the variables it refers to are already defined.
 
 
-### Numbersg
+### Numbers
 
 * Create a variable called `dollars` that holds the number 50.
 * Create a variable called `cents` and define it in terms of `dollars` such that it is 100 times the value.
