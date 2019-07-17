@@ -15,8 +15,17 @@
 * Create a variable called `dollarsSpent` and define it in terms of `hamburgerPrice` and `numberOfHamburgers` such that it is the two values multiplied by each other.
 * Create a variable called `newDollars` and define it in terms of `dollars` and `dollarsSpent` such that it is the value of `dollars` minus the value of `dollarsSpent`.
 
+
 ### Strings
+
 * Create a variable called `firstName` that holds your first name (or any non-empty string).
 * Create a variable called `lastName` thta holds your last name (or any non-empty string).
 * Create a variable called `fullName` and define it in terms of `firstName` and `lastName` such that it is the first, followed by a space, followed by the second.
-* Create a variable called `school` that holds 
+* Create a variable called `school` that holds the name of your school.
+* Create a variable called `sentence` and define it in terms of `fullName` and `school` such that it contains those variables, plus additional characters of your choice.
+* Create a variable called `powerful` and define it in terms of `sentence` using `replace`, such that the first space is replaced by two asterisks, i.e. two of the * symbol.
+* Create a variable called `firstHalfOfSentence` and define it in terms of `sentence` such that it is the first half of the string. For example, if there are 14 characters in `sentence`, `halfSentence` should be the the first 7. If there are an odd number of characters in `sentence`, then include the middle character. e.g., if there are 15 characters in `sentence`, then `firstHalfOfSentence` should include the first 8.
+* Create a variable called `secondHalfOfSentence` and define it in terms of `sentence` such that it is the last half of the string. If there are an odd number of characters, then do _not_ include the middle character.
+
+
+### Booleans
