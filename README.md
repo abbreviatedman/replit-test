@@ -4,9 +4,10 @@
 
 * If a question asks you to define a variable in terms of another variable, then do... exactly that. If `x = 2`, and you're asked to make `y` be 1 more than `x`, then the correct answer is to define `y` as `x + 1`, _not_ as `3`.
 * You should not have to reassign any variables below, so use `const` to declare them.
+* It is a good idea to go in order, because many steps require variables defined above them. If you want to skip and come back to one later, do not do any that rely on that one either; any test will fail unless all the variables it refers to are already defined.
 
 
-### Numbers
+### Numbersg
 
 * Create a variable called `dollars` that holds the number 50.
 * Create a variable called `cents` and define it in terms of `dollars` such that it is 100 times the value.
