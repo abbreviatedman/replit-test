@@ -29,3 +29,8 @@
 
 
 ### Booleans
+
+* Create a variable called `havingFun` that holds the boolean value that corresponds to whether or not you are. In general, if not in this quiz.
+* Create a variable called `learning` that holds the boolean value that corresponds to whether or not you are.
+* Create a variable called `killingIt` and define it in terms of the previous two variables such that it is true only if both are. Do not use an `if` statement.
+* Create a variable called `notBankrupt` and define it in terms of `newDollars` such that it is true if `newDollars` is greater than 0. Do not use an `if` statement.
